@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f8f6;
+    color: #25423a;
+    text-align: center;
+}
+
+header {
+    background: #145c50;
+    color: white;
+    padding: 25px 10px;
+}
+
+header h1 {
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 8px;
+    color: #c6eee0;
+}
+
+nav {
+    margin-top: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #72c6a3, #d8eaa4);
+    padding: 85px 15px;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #145c50;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+section {
+    padding: 45px 15px;
+}
+
+section h2 {
+    margin-bottom: 25px;
+}
+
+.places {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 240px;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #d1e1da;
+}
+
+.picture {
+    background: #e0f0e7;
+    font-size: 45px;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    color: #145c50;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.packages {
+    background: #dcefe5;
+}
+
+.package {
+    display: inline-block;
+    background: white;
+    width: 230px;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.package p {
+    margin: 15px 0;
+}
+
+.package h3:last-child {
+    color: #d07832;
+}
+
+footer {
+    background: #145c50;
+    color: white;
+    padding: 22px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+}
